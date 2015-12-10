@@ -1,2 +1,2 @@
-# homebew-tap
+# homebrew-tap
 JFrog Homebrew formulas
