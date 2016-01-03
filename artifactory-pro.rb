@@ -1,5 +1,5 @@
 class ArtifactoryPro < Formula
-  desc "The Univeral Binatry Repository"
+  desc "The Univeral Binary Repository"
   homepage "https://www.jfrog.com/artifactory/"
   url "https://dl.bintray.com/jfrog/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/4.3.3/jfrog-artifactory-pro-4.3.3.zip"
   sha256 "473880f1c139e6dfd24b994b1775296975af21d4015d64a6d6de15c169d23a9e"
