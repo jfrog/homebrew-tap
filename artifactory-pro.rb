@@ -7,6 +7,7 @@ class ArtifactoryPro < Formula
   bottle do
     root_url "https://jfrog.bintray.com/tap/homebrew-tap"
 	sha256 "f8e2204105cf8e505d92dea14cdb7daac03f7ddf85c81a0b15c2895f26d8f379" => :el_capitan
+	sha256 "bcfd8351efc4517f50a50d2fbd5bc3b8718385c91b7605e2a3250372aaa3c344" => :yosemite
   end
   option "with-low-heap", "Run artifactory with low Java memory options. Useful for development machines. Do not use in production."
 
