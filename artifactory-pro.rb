@@ -1,12 +1,12 @@
 class ArtifactoryPro < Formula
   desc "The Univeral Binary Repository"
   homepage "https://www.jfrog.com/artifactory/"
-  url "https://dl.bintray.com/jfrog/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/4.7.2/jfrog-artifactory-pro-4.7.2.zip"
-  sha256 "6fdd0fb7bdb2fdb1ee377f1866a6040cc5086ed7b371460b856fa530fd100b58"
+  url "https://dl.bintray.com/jfrog/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/4.7.3/jfrog-artifactory-pro-4.7.3.zip"
+  sha256 "17f79ca4849acbfca5f1472519ebd6fcdd534a9173dcd65bc6131cf97ae4c9c6"
 
   bottle do
     root_url "https://jfrog.bintray.com/tap/homebrew-tap"
-	sha256 "d4c98361286f94b85783f1ed7735792a9185311e5a9571a76241a691b2cc1fdb" => :el_capitan
+	sha256 "1f666dab91d9ffb766f87bfe944d1b56ab96b568d202806dc7a6c2b0f70be6d4" => :el_capitan
   end
   option "with-low-heap", "Run artifactory with low Java memory options. Useful for development machines. Do not use in production."
 
