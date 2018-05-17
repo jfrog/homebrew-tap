@@ -1,12 +1,12 @@
 class ArtifactoryPro < Formula
   desc "The Universal Binary Repository"
   homepage "https://www.jfrog.com/artifactory/"
-  url "https://dl.bintray.com/jfrog/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/5.5.0/jfrog-artifactory-pro-5.5.0.zip"
-  sha256 "9015471579cd9b174bf2123d6e9e1b18a0745c3b2de4597e4575124d64508136"
+  url "https://dl.bintray.com/jfrog/artifactory-pro/org/artifactory/pro/jfrog-artifactory-pro/6.0.0/jfrog-artifactory-pro-6.0.0.zip"
+  sha256 "4c5fa3a86e3b1d07979ff011af3b58481e519faa6ee27eb23622a6fe00d89935"
 
   bottle do
     root_url "https://jfrog.bintray.com/tap/homebrew-tap"
-	sha256 "852075cf9976d189fedd8f1d3930bc2dce16f4a6d6361bf8445b17598849ca86" => :sierra
+	  sha256 "945f6e80e7c41c86d18ebdc540a0486d9009809be863eb6a45876cc5aaaf5397" => :high_sierra
   end
   option "with-low-heap", "Run artifactory with low Java memory options. Useful for development machines. Do not use in production."
 
@@ -47,7 +47,7 @@ class ArtifactoryPro < Formula
 
   plist_options :manual => "#{HOMEBREW_PREFIX}/opt/artifactory/libexec/bin/artifactory.sh"
 
-  def plist; <<-EOS.undent
+  def plist; <<-EOS
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
     <plist version="1.0">
